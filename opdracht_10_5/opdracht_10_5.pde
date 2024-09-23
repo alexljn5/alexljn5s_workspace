@@ -64,30 +64,30 @@ void draw() {
 }
 
 void Knop1() {
-    int x = Integer.valueOf(tekstveld1.getText());
-    int y = Integer.valueOf(tekstveld2.getText());
-    int sum = x * y;
+    float x = Float.valueOf(tekstveld1.getText());
+    float y = Float.valueOf(tekstveld2.getText());
+    float sum = x * y;
     tekstveld3.setText("" + sum);
 }
 
 
 void Knop2() {
-    int x = Integer.valueOf(tekstveld1.getText());
-    int y = Integer.valueOf(tekstveld2.getText());
-    int sum = x / y;
+    Float x = Float.valueOf(tekstveld1.getText());
+    Float y = Float.valueOf(tekstveld2.getText());
+    float sum = x / y;
     tekstveld3.setText("" + sum);
 }
 
 void Knop3() {
-    int x = Integer.valueOf(tekstveld1.getText());
-    int y = Integer.valueOf(tekstveld2.getText());
-    int sum = x + y;
+    float x = Float.valueOf(tekstveld1.getText());
+    float y = Float.valueOf(tekstveld2.getText());
+    float sum = x + y;
     tekstveld3.setText("" + sum);
 }
 
 void Knop4() {
-    int x = Integer.valueOf(tekstveld1.getText());
-    int y = Integer.valueOf(tekstveld2.getText());
-    int sum = x - y;
+    float x = Float.valueOf(tekstveld1.getText());
+    float y = Float.valueOf(tekstveld2.getText());
+    float sum = x - y;
     tekstveld3.setText("" + sum);
 }
